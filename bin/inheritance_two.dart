@@ -26,8 +26,8 @@ void main(List<String> arguments) {
   var elevated = ElevatedLocation(23.5, -234.6);
   var elevatedTwo = ElevatedLocationTwo(67.4, -56.8, 'Dhaka');
 
-  //print("Constructor: ${elevated.lat}, ${elevated.lng}");
-  //print("Named Constructor: ${elevatedTwo.lat}, ${elevatedTwo.lng}, ${elevatedTwo.address}");
+  print("Constructor: ${elevated.lat}, ${elevated.lng}");
+  print("Named Constructor: ${elevatedTwo.lat}, ${elevatedTwo.lng}, ${elevatedTwo.address}");
   print(elevatedTwo.toString()); // with override toString()
   print(elevatedTwo); // with override toString(), didn't call
 }
